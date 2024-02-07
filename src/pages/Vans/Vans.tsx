@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Van } from "../interfaces/types";
+import { Van } from "../../interfaces/types";
 import { Link } from "react-router-dom";
 
 export const Vans = () => {

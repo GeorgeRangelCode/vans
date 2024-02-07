@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Van } from "../interfaces/types";
+import { Van } from "../../interfaces/types";
 
 export const VanDetail = () => {
   const { id } = useParams();
