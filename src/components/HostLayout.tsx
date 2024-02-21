@@ -10,16 +10,16 @@ export const HostLayout = () => {
   return (
     <>
       <nav className="host-nav">
-        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} end to="/host">
+        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} end to=".">
           Dashboard
         </NavLink>
-        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="/host/income">
+        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="income">
           Income
         </NavLink>
-        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="/host/vans">
+        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="vans">
           Vans
         </NavLink>
-        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="/host/reviews">
+        <NavLink style={({ isActive }) => (isActive ? activeStyles : {})} to="reviews">
           Reviews
         </NavLink>
       </nav>
